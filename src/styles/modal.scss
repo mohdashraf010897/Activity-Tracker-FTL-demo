@@ -1,0 +1,41 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba($color: #000000, $alpha: 0.45);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  .modal {
+    width: 95%;
+    background: #fff;
+    position: relative;
+    .close-btn {
+      position: absolute;
+      background: white;
+      border-radius: 10px;
+      /* height: 25px; */
+      width: 100px;
+      border: #c52020 2px solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      padding-bottom: 4px;
+      left: 50%;
+      bottom: -36px;
+      transform: translateX(-50%);
+      cursor: pointer;
+      color: #c52020;
+      font-weight: 500;
+
+      &:hover {
+        color: #fff;
+        background: #c52020;
+      }
+    }
+  }
+}

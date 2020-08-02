@@ -1,0 +1,64 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(180deg, #ead3aa, #f3b037);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  .user-list {
+    width: 75vw;
+    min-height: 80vh;
+    background-color: #ffefd5;
+    box-shadow: 0 2px 5px #aaa;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+    &__header {
+      padding: 10px 0;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    &__body {
+      padding: 0 10px;
+    }
+  }
+}
+
+.list-header,
+.list-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  grid-column-gap: 10px;
+
+  .name {
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  span {
+    background-color: rgba(255, 197, 176, 0.34);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.list-header {
+  font-weight: 600;
+  font-size: 1.5rem;
+
+  span {
+    background-color: rgba(255, 161, 109, 0.34);
+    height: 50px;
+  }
+}
