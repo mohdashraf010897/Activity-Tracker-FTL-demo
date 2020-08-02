@@ -21,6 +21,9 @@ Run using
 npm start
 ```
 
+View at [http://localhost:3000/](http://localhost:3000/)
+or replace the port number if any other .
+
 ## Quick Points
 
 #### $ The sample data set is having 4 users to populate the home screen.
