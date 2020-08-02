@@ -4,7 +4,7 @@ Activity Tracker is a React.js based project bootstrapped using cra.
 
 ## Live
 
-The app can be viewed live at :  
+The app can be viewed live at :  [https://zealous-clarke-582f93.netlify.app/](https://zealous-clarke-582f93.netlify.app/)
 
 ## Installation
 
